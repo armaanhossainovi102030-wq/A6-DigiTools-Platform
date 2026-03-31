@@ -5,8 +5,8 @@ import { ShoppingCart } from 'lucide-react';
 const NavBar = () => {
     return (
         <div className='max-w-[80%] mx-auto'>
-            <div className="navbar bg-base-100 shadow-sm">
-  <div className="navbar-start">
+            <div className="navbar flex justify-between bg-base-100 shadow-sm gap-2">
+  <div className=" ">
     <div className="dropdown">
       {/* <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
@@ -27,8 +27,8 @@ const NavBar = () => {
     </div>
     <a className="btn btn-ghost text-xl bg-gradient-to-r  from-violet-500 to-fuchsia-500 bg-clip-text text-transparent ">DigiTools</a>
   </div>
-  <div className="navbar-center  lg:flex">
-    <ul className="menu menu-horizontal px-1 font-bold ">
+  <div className="  lg:flex">
+    <ul className="flex gap-2 font-bold ">
       <li><a className='font-bold'>Products</a></li>
       <li><a>Features</a></li>
       
@@ -49,14 +49,14 @@ const NavBar = () => {
     
     </ul>
   </div>
-  <div className="navbar-end ">
+  <div className="flex gap-2 items-center ">
     <button><ShoppingCart /></button>
-    <h2 className='font-bold ml-2' >Login</h2>
-    <a className="ml-1 bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white btn rounded-2xl ">Get Started</a>
+    <h2 className='font-bold ml-1' >Login</h2>
+    <button className=" bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white btn rounded-2xl ">Get Started</button>
      
   </div>
 </div>
-<div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500"></div>
+{/* <div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500"></div> */}
     
         </div>
     );
