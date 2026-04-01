@@ -10,7 +10,7 @@ import Footer from './Components/Footer'
 import Cart from './Components/Cart'
 
 const CardData = async()=>{
-  const res =await fetch("/public/data.json")
+  const res =await fetch("/data.json")
   return res.json()
 }
 
