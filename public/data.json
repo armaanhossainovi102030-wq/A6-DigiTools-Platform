@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "A powerful resume builder with modern templates and ATS-friendly formatting.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "resume-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Creator",
+    "description": "Create stunning online portfolios with drag-and-drop customization.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "Drag & drop editor", "Analytics dashboard"],
+    "icon": "portfolio-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Writing Assistant",
+    "description": "Generate professional emails, essays, and reports instantly.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Grammar correction", "Tone adjustment", "Long-form writing"],
+    "icon": "ai-writing-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Task Manager Plus",
+    "description": "Organize tasks, set reminders, and track productivity effortlessly.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Cloud sync", "Daily planner", "Progress tracking"],
+    "icon": "task-icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Invoice Generator",
+    "description": "Create and send professional invoices in seconds.",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom branding", "Auto tax calculation", "PDF export"],
+    "icon": "invoice-icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Plan and automate posts across all major social platforms.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Multi-platform posting", "Content calendar", "AI caption generator"],
+    "icon": "social-icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Logo Maker Studio",
+    "description": "Design professional logos with AI-powered suggestions.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Vector export", "Brand color palettes", "AI logo variations"],
+    "icon": "logo-icon.png"
+  },
+  {
+    "id": 8,
+    "name": "E‑Learning Toolkit",
+    "description": "Create courses, quizzes, and interactive lessons easily.",
+    "price": 89.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Video hosting", "Quiz builder", "Student analytics"],
+    "icon": "elearning-icon.png"
+  },
+  {
+    "id": 9,
+    "name": "Password Vault",
+    "description": "Securely store and manage all your passwords in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AES-256 encryption", "Auto-fill", "Multi-device sync"],
+    "icon": "vault-icon.png"
+  },
+  {
+    "id": 10,
+    "name": "Cloud Storage Pro",
+    "description": "Fast and secure cloud storage for personal and business use.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["1TB storage", "File sharing", "Backup & restore"],
+    "icon": "cloud-icon.png"
+  }
+]
