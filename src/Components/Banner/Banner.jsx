@@ -15,7 +15,7 @@ const Banner = () => {
                  </div>
             </div>
             <div>
-                <img className='h-[590] w-[500]' src="/public/assets/banner.png" alt="" />
+                <img className='h-[590] w-[500]' src="/assets/banner.png" alt="" />
             </div>
         </div>
     );
