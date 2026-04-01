@@ -34,7 +34,7 @@ function App() {
                 <p className='text-gray-500'>Choose from our curated collection of premium digital products designed <br></br></p><span className='flex items-center text-gray-500'>to boost your productivity and creativity.</span>
                 <div className='mt-5'>
                 <button onClick={()=>setActiveTab("products")} className=" bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white btn rounded-2xl ">Products</button>
-                <button onClick={()=>setActiveTab("cart")}  className="ml-2  btn btn-outline rounded-2xl ">Cart(2)</button>
+                <button onClick={()=>setActiveTab("cart")}  className="ml-2  btn btn-outline rounded-2xl ">{`Cart (${Carts.length})`}</button>
 
             </div>
             </div>
@@ -42,7 +42,7 @@ function App() {
       {ActiveTab==="products" && <Suspense>
         <Card CardPromise={CardPromise} Carts={Carts} setCarts={setCarts}></Card>
       </Suspense>}
-      {ActiveTab==="cart" && <Cart Carts={Carts}></Cart>}
+      {ActiveTab==="cart" && <Cart Carts={Carts} setCarts={setCarts}></Cart>}
       <Started></Started>
       <Pricing></Pricing>
       <Footer></Footer>
